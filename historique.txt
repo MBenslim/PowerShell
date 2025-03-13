@@ -1,0 +1,86 @@
+Id CommandLine                                                                                                                     
+  -- -----------                                                                                                                     
+   1 Get-Location                                                                                                                    
+   2 Get-Host                                                                                                                        
+   3 Set-Location                                                                                                                    
+   4 Set-Location -Path C:\                                                                                                          
+   5 Get-Location                                                                                                                    
+   6 New-Item -Path Temp -ItemType Directory                                                                                         
+   7 Set-Location Temp                                                                                                               
+   8 New-Item -Path Rep1 -ItemType Directory                                                                                         
+   9 New-Item -Path Rep2 -ItemType Directory                                                                                         
+  10 Set-Location C:\Temp                                                                                                            
+  11 Get-ChildItem                                                                                                                   
+  12 New-Item -Path file1 -ItemType File                                                                                             
+  13 New-Item -Path file2 -ItemType File                                                                                             
+  14 New-Item -Path file3 -ItemType File                                                                                             
+  15 Get-ChildItem                                                                                                                   
+  16 Move-Item -Path file1 -Destination Rep1                                                                                         
+  17 Get-ChildItem                                                                                                                   
+  18 Get-ChildItem -Path Rep1                                                                                                        
+  19 Get-ChildItem -Recurse                                                                                                          
+  20 New-Item -Path Rep1 -Destination Rep2                                                                                           
+  21 Move-Item -Path Rep1 -Destination Rep2                                                                                          
+  22 Get-ChildItem -Recurse                                                                                                          
+  23 Remove-Item -Path file3                                                                                                         
+  24 Remove-Item Rep2 -Recurse                                                                                                       
+  25 Set-Location -Path C:\...                                                                                                       
+  26 New-Item -Path FolderTest1 -ItemType Directory                                                                                  
+  27 New-Item -Path FolderTest1 -ItemType Directory                                                                                  
+  28 New-Item -Path FolderTest1                                                                                                      
+  29 New-Item -Path EvenFolder -ItemType Directory                                                                                   
+  30 New-Item -Path OddFolder -ItemType Directory                                                                                    
+  31 Set-Location C:\EvenFolder                                                                                                      
+  32 Set-Location C:\                                                                                                                
+  33 Set-Location C:\FolderTest1                                                                                                     
+  34 Move-Item -Path File2 -Destination EvenFolder                                                                                   
+  35 Move-Item -Path File4 -Destination EvenFolder                                                                                   
+  36 Get-ChildItem -Path FolderTest1                                                                                                 
+  37 Get-ChildItem FolderTest1                                                                                                       
+  38 Get-ChildItem                                                                                                                   
+  39 Move-Item -Path File4 -Destination EvenFolder                                                                                   
+  40 Set-Location C:\                                                                                                                
+  41 Get-ChildItem                                                                                                                   
+  42 Get-ChildItem FolderTest1                                                                                                       
+  43 Get-ChildItem EvenFolder                                                                                                        
+  44 Get-ChildItem -Recurse                                                                                                          
+  45 Set-Location C:\EvenFolder                                                                                                      
+  46 Get-ChildItem -Recurse                                                                                                          
+  47 Set-Location C:\                                                                                                                
+  48 Set-Location C:\FolderTest1                                                                                                     
+  49 Get-ChildItem -Recurse                                                                                                          
+  50 Move-Item -Path File4 -Destination EvenFolder                                                                                   
+  51 Remove-Item EvenFolder -Recurse                                                                                                 
+  52 Get-ChildItem -Recurse                                                                                                          
+  53 New-Item -Path File2 -ItemType File                                                                                             
+  54 Get-ChildItem -Recurse                                                                                                          
+  55 Set-Location C:\                                                                                                                
+  56 Get-ChildItem -Recurse                                                                                                          
+  57 Get-ChildItem FolderTest1                                                                                                       
+  58 Get-ChildItem FolderTest2                                                                                                       
+  59 Get-ChildItem                                                                                                                   
+  60 Set-Location C:\EvenFolder                                                                                                      
+  61 Get-ChildItem                                                                                                                   
+  62 Set-Location C:\                                                                                                                
+  63 Set-Location C:\FolderTest1                                                                                                     
+  64 Move-Item -Path File2 -Destination C:\EvenFolder                                                                                
+  65 Get-ChildItem FolderTest1                                                                                                       
+  66 Get-ChildItem                                                                                                                   
+  67 Set-Location C:\EvenFolder                                                                                                      
+  68 Get-ChildItem                                                                                                                   
+  69 Set-Location C:\FolderTest1                                                                                                     
+  70 Move-Item -Path File4 -Destination C:\EvenFolder                                                                                
+  71 Move-Item -Path File1 -Destination C:\OddFolder                                                                                 
+  72 Move-Item -Path File3 -Destination C:\OddFolder                                                                                 
+  73 Move-Item -Path File5 -Destination C:\OddFolder                                                                                 
+  74 Set-Location C:\FolderTest2                                                                                                     
+  75 Get-ChildItem                                                                                                                   
+  76 Move-Item -Path File6 -Destination C:\EvenFolder                                                                                
+  77 Move-Item -Path File8 -Destination C:\EvenFolder                                                                                
+  78 Move-Item -Path File10 -Destination C:\EvenFolder                                                                               
+  79 Move-Item -Path File7 -Destination C:\OddFolder                                                                                 
+  80 Move-Item -Path File9 -Destination C:\OddFolder                                                                                 
+  81 Get-History > historique.txt                                                                                                    
+  82 Set-Location C:\                                                                                                                
+
+
