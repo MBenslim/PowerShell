@@ -1,0 +1,34 @@
+
+
+    Directory: C:\EvenFolder
+
+
+Mode                 LastWriteTime         Length Name                                                                               
+----                 -------------         ------ ----                                                                               
+-a----        13/03/2025     04:19              0 File10                                                                             
+-a----        13/03/2025     04:55              0 File2                                                                              
+-a----        13/03/2025     04:19              0 File4                                                                              
+-a----        13/03/2025     04:19              0 File6                                                                              
+-a----        13/03/2025     04:19              0 File8                                                                              
+
+
+    Directory: C:\FolderTest2
+
+
+Mode                 LastWriteTime         Length Name                                                                               
+----                 -------------         ------ ----                                                                               
+-a----        13/03/2025     05:12          22154 historique.txt                                                                     
+
+
+    Directory: C:\OddFolder
+
+
+Mode                 LastWriteTime         Length Name                                                                               
+----                 -------------         ------ ----                                                                               
+-a----        13/03/2025     04:19              0 File1                                                                              
+-a----        13/03/2025     04:19              0 File3                                                                              
+-a----        13/03/2025     04:19              0 File5                                                                              
+-a----        13/03/2025     04:19              0 File7                                                                              
+-a----        13/03/2025     04:19              0 File9                                                                              
+
+
