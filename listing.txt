@@ -12,14 +12,6 @@ Mode                 LastWriteTime         Length Name
 -a----        13/03/2025     04:19              0 File8                                                                              
 
 
-    Directory: C:\FolderTest2
-
-
-Mode                 LastWriteTime         Length Name                                                                               
-----                 -------------         ------ ----                                                                               
--a----        13/03/2025     05:12          22154 historique.txt                                                                     
-
-
     Directory: C:\OddFolder
 
 
